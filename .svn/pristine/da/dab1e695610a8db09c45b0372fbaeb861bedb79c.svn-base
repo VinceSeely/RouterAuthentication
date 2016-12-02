@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Admin Features</title>
+</head>
+<body>
+   <h3>Default Connection Time DD:HH:MM:SS</h3>
+   <form method="get">
+      <input type="text" placeholder="00:02:00:00"/>
+      <input type="button" value="Set Default" id="SetDefaultConnectionTime" />
+   </form>
+   <br/>
+   <input type="button" value="View History" id="ViewAdminHistory" />
+   <br/>
+   <br/>
+   <input type="button" value="Blacklist Sites" id="ViewSiteBlacklist" />
+   <br />
+   <br />
+   <input type="button" value="Whitelist Users" id="ViewUserWhitelist" />
+</body>
+</html>

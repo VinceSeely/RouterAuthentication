@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <title>User Whitelist</title>
+</head>
+<body>
+   <h3>User Whitelist</h3>
+   <form method="get">
+      <input type="text" placeholder="User Phone Number" />
+      <input type="button" value="Add User to List" />
+   </form>
+   <pre>(987)654-3210</pre>
+   <pre>(262)333-4444</pre>
+   <pre>(999)888-7777</pre>
+   <pre>(111)111-1111</pre>
+   <pre>(234)567-8910</pre>
+   <pre>(101)101-1010</pre>
+</body>
+</html>

@@ -1,0 +1,665 @@
+I-Logix-RPY-Archive version 8.7.1 C++ 5066837
+{ ISubsystem 
+	- _id = GUID 4239cb3f-d494-4e13-9d58-d17f28fc0199;
+	- _myState = 8192;
+	- _name = "Default";
+	- codeUpdateCGTime = 11.8.2016::18:34:2;
+	- _lastID = 12;
+	- weakCGTime = 11.8.2016::19:7:13;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID d9089238-c4c9-4b8b-9d35-fbb132fcce06;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 12;
+		- value = 
+		{ IClass 
+			- _id = GUID d9089238-c4c9-4b8b-9d35-fbb132fcce06;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 11.8.2016::18:34:2;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID ddaed254-e4f1-4924-ad4f-1185ea24abc7;
+			- _myState = 8192;
+			- _name = "OfficeStaff";
+			- codeUpdateCGTime = 11.8.2016::18:56:44;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Century Health Clinic Class Diagram";
+				- _id = GUID 372f639b-a6cb-4fa7-b8fd-c3c3b41b51fc;
+			}
+			- weakCGTime = 11.8.2016::19:0:57;
+			- strongCGTime = 11.8.2016::18:56:44;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 96d8d6bb-90ac-48c7-bbda-30cace8ba1b2;
+					- _myState = 10240;
+					- _name = "itsClinic";
+					- codeUpdateCGTime = 11.8.2016::19:0:57;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a82a2ef1-6bf2-4179-8f59-4a715a306cd6;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 0bdb5fb9-aba3-47fe-ae2d-2937495545b0;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID ee56d28d-8b5a-4617-8e1b-83b86b1f9590;
+			- _myState = 8192;
+			- _name = "OfficeManager";
+			- codeUpdateCGTime = 11.8.2016::19:1:6;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Century Health Clinic Class Diagram";
+				- _id = GUID 372f639b-a6cb-4fa7-b8fd-c3c3b41b51fc;
+			}
+			- weakCGTime = 11.8.2016::19:1:6;
+			- strongCGTime = 11.8.2016::18:56:51;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID cbfc48e6-48c1-40fe-9c9b-7527c27e985f;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID ddaed254-e4f1-4924-ad4f-1185ea24abc7;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 5b56c8f7-01d3-4705-934d-3d45b9b6cf57;
+			- _myState = 8192;
+			- _name = "Provider";
+			- codeUpdateCGTime = 11.8.2016::18:57:1;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Century Health Clinic Class Diagram";
+				- _id = GUID 372f639b-a6cb-4fa7-b8fd-c3c3b41b51fc;
+			}
+			- weakCGTime = 11.8.2016::19:8:51;
+			- strongCGTime = 11.8.2016::18:57:1;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 412a4517-bd72-4d75-9556-679f9cb209ee;
+					- _myState = 10240;
+					- _name = "itsClinic";
+					- codeUpdateCGTime = 11.8.2016::19:5:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a82a2ef1-6bf2-4179-8f59-4a715a306cd6;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 3f976835-5a57-4882-8a15-74d2f75360aa;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 2f211b1c-4890-4ba2-9c4f-5b22563256a8;
+					- _myState = 10240;
+					- _name = "itsAppointment";
+					- codeUpdateCGTime = 11.8.2016::19:8:51;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 86796d74-da8c-450c-93f1-312638aa3d9b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b146a2c0-e847-4b80-a068-416d5cd7ca15;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID caa81944-d7b7-467f-9cb2-fc420762c67e;
+			- _myState = 8192;
+			- _name = "Doctor";
+			- codeUpdateCGTime = 11.8.2016::19:3:33;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Century Health Clinic Class Diagram";
+				- _id = GUID 372f639b-a6cb-4fa7-b8fd-c3c3b41b51fc;
+			}
+			- weakCGTime = 11.8.2016::19:3:33;
+			- strongCGTime = 11.8.2016::18:57:7;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 4ac25588-b346-4ab2-a389-057002b68678;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 5b56c8f7-01d3-4705-934d-3d45b9b6cf57;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 34751581-2d9a-4212-8c5f-c85806796f23;
+			- _myState = 8192;
+			- _name = "PhysicalTherapist";
+			- codeUpdateCGTime = 11.8.2016::19:8:23;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Century Health Clinic Class Diagram";
+				- _id = GUID 372f639b-a6cb-4fa7-b8fd-c3c3b41b51fc;
+			}
+			- weakCGTime = 11.8.2016::19:8:23;
+			- strongCGTime = 11.8.2016::18:57:22;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 7acaf45a-8f06-40ad-9121-4cb9635e9c84;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 5b56c8f7-01d3-4705-934d-3d45b9b6cf57;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 9581b16b-b251-4415-ae30-4e76fdca54d8;
+			- _myState = 8192;
+			- _name = "RegisteredNurse";
+			- codeUpdateCGTime = 11.8.2016::19:8:25;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Century Health Clinic Class Diagram";
+				- _id = GUID 372f639b-a6cb-4fa7-b8fd-c3c3b41b51fc;
+			}
+			- weakCGTime = 11.8.2016::19:8:25;
+			- strongCGTime = 11.8.2016::18:57:33;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 5632ee65-f5b1-42e2-941e-54366369adc2;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 5b56c8f7-01d3-4705-934d-3d45b9b6cf57;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID a82a2ef1-6bf2-4179-8f59-4a715a306cd6;
+			- _myState = 8192;
+			- _name = "Clinic";
+			- codeUpdateCGTime = 11.8.2016::18:59:36;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Century Health Clinic Class Diagram";
+				- _id = GUID 372f639b-a6cb-4fa7-b8fd-c3c3b41b51fc;
+			}
+			- weakCGTime = 11.8.2016::19:7:36;
+			- strongCGTime = 11.8.2016::18:59:36;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 5;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 0bdb5fb9-aba3-47fe-ae2d-2937495545b0;
+					- _myState = 10240;
+					- _name = "itsOfficeStaff";
+					- codeUpdateCGTime = 11.8.2016::19:1:0;
+					- _multiplicity = "6";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID ddaed254-e4f1-4924-ad4f-1185ea24abc7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 96d8d6bb-90ac-48c7-bbda-30cace8ba1b2;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 3f976835-5a57-4882-8a15-74d2f75360aa;
+					- _myState = 10240;
+					- _name = "itsProvider";
+					- codeUpdateCGTime = 11.8.2016::19:5:44;
+					- _multiplicity = "11";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 5b56c8f7-01d3-4705-934d-3d45b9b6cf57;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 412a4517-bd72-4d75-9556-679f9cb209ee;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 2a2ef8fb-d172-45b5-8176-ffbd4b27c8c4;
+					- _myState = 10240;
+					- _name = "itsPatient";
+					- codeUpdateCGTime = 11.8.2016::19:5:39;
+					- _multiplicity = "*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID bd69ac50-51e1-4903-9217-5a8e7b90516e;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 3e62c941-3bf4-4485-ba5f-41a69cea42f3;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID e044970a-a83c-4889-ae1f-950962000cb1;
+					- _myState = 10240;
+					- _name = "itsService";
+					- codeUpdateCGTime = 11.8.2016::19:5:42;
+					- _multiplicity = "*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 74240cbd-4d02-47d8-85ea-cc0ef280f4f6;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 92e7c114-637d-4abf-8afd-fefebb6f50d7;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID bebbc222-5ec3-4f9b-a1d5-df8900fc550a;
+					- _myState = 10240;
+					- _name = "itsRoom";
+					- codeUpdateCGTime = 11.8.2016::19:7:36;
+					- _multiplicity = "*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a66a6436-98b4-4910-bb3e-b4e66063b331;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID ead67658-8dea-425c-8665-387eef06980d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID bd69ac50-51e1-4903-9217-5a8e7b90516e;
+			- _myState = 8192;
+			- _name = "Patient";
+			- codeUpdateCGTime = 11.8.2016::18:59:39;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Century Health Clinic Class Diagram";
+				- _id = GUID 372f639b-a6cb-4fa7-b8fd-c3c3b41b51fc;
+			}
+			- weakCGTime = 11.8.2016::19:5:6;
+			- strongCGTime = 11.8.2016::18:59:39;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 78ac7dda-ba57-446c-8213-d156f21fc24a;
+					- _myState = 10240;
+					- _name = "itsAppointment";
+					- codeUpdateCGTime = 11.8.2016::19:4:54;
+					- _multiplicity = "*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 86796d74-da8c-450c-93f1-312638aa3d9b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID a6eb4946-2e6f-455a-93bf-75f5147dcc24;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 3e62c941-3bf4-4485-ba5f-41a69cea42f3;
+					- _myState = 10240;
+					- _name = "itsClinic";
+					- codeUpdateCGTime = 11.8.2016::19:5:6;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a82a2ef1-6bf2-4179-8f59-4a715a306cd6;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 2a2ef8fb-d172-45b5-8176-ffbd4b27c8c4;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 74240cbd-4d02-47d8-85ea-cc0ef280f4f6;
+			- _myState = 8192;
+			- _name = "Service";
+			- codeUpdateCGTime = 11.8.2016::19:2:43;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Century Health Clinic Class Diagram";
+				- _id = GUID 372f639b-a6cb-4fa7-b8fd-c3c3b41b51fc;
+			}
+			- weakCGTime = 11.8.2016::19:9:25;
+			- strongCGTime = 11.8.2016::19:2:43;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 92e7c114-637d-4abf-8afd-fefebb6f50d7;
+					- _myState = 10240;
+					- _name = "itsClinic";
+					- codeUpdateCGTime = 11.8.2016::19:5:11;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a82a2ef1-6bf2-4179-8f59-4a715a306cd6;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e044970a-a83c-4889-ae1f-950962000cb1;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 6ec1634f-54ad-472d-a9a4-9b7b72251ebe;
+					- _myState = 10240;
+					- _name = "itsAppointment";
+					- codeUpdateCGTime = 11.8.2016::19:9:25;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 86796d74-da8c-450c-93f1-312638aa3d9b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 79a54a57-92b6-4c5c-b56b-ef9cedf40c02;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 86796d74-da8c-450c-93f1-312638aa3d9b;
+			- _myState = 8192;
+			- _name = "Appointment";
+			- codeUpdateCGTime = 11.8.2016::19:3:3;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Century Health Clinic Class Diagram";
+				- _id = GUID 372f639b-a6cb-4fa7-b8fd-c3c3b41b51fc;
+			}
+			- weakCGTime = 11.8.2016::19:9:35;
+			- strongCGTime = 11.8.2016::19:3:3;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID a6eb4946-2e6f-455a-93bf-75f5147dcc24;
+					- _myState = 10240;
+					- _name = "itsPatient";
+					- codeUpdateCGTime = 11.8.2016::19:4:49;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID bd69ac50-51e1-4903-9217-5a8e7b90516e;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 78ac7dda-ba57-446c-8213-d156f21fc24a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID b146a2c0-e847-4b80-a068-416d5cd7ca15;
+					- _myState = 10240;
+					- _name = "itsProvider";
+					- codeUpdateCGTime = 11.8.2016::19:8:51;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 5b56c8f7-01d3-4705-934d-3d45b9b6cf57;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 2f211b1c-4890-4ba2-9c4f-5b22563256a8;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 83c00f3f-2edb-427b-a9d2-61440301850a;
+					- _myState = 10240;
+					- _name = "itsRoom";
+					- codeUpdateCGTime = 11.8.2016::19:8:55;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a66a6436-98b4-4910-bb3e-b4e66063b331;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 883cbd86-c8c6-484e-ba66-1e4dbffb4293;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 79a54a57-92b6-4c5c-b56b-ef9cedf40c02;
+					- _myState = 10240;
+					- _name = "itsService";
+					- codeUpdateCGTime = 11.8.2016::19:9:35;
+					- _multiplicity = "*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 74240cbd-4d02-47d8-85ea-cc0ef280f4f6;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6ec1634f-54ad-472d-a9a4-9b7b72251ebe;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID a66a6436-98b4-4910-bb3e-b4e66063b331;
+			- _myState = 8192;
+			- _name = "Room";
+			- codeUpdateCGTime = 11.8.2016::19:7:25;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Century Health Clinic Class Diagram";
+				- _id = GUID 372f639b-a6cb-4fa7-b8fd-c3c3b41b51fc;
+			}
+			- weakCGTime = 11.8.2016::19:8:55;
+			- strongCGTime = 11.8.2016::19:7:25;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID ead67658-8dea-425c-8665-387eef06980d;
+					- _myState = 10240;
+					- _name = "itsClinic";
+					- codeUpdateCGTime = 11.8.2016::19:7:32;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID a82a2ef1-6bf2-4179-8f59-4a715a306cd6;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID bebbc222-5ec3-4f9b-a1d5-df8900fc550a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 883cbd86-c8c6-484e-ba66-1e4dbffb4293;
+					- _myState = 10240;
+					- _name = "itsAppointment";
+					- codeUpdateCGTime = 11.8.2016::19:8:55;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 86796d74-da8c-450c-93f1-312638aa3d9b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 83c00f3f-2edb-427b-a9d2-61440301850a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 11.8.2016::19:0:43;
+}
+

@@ -1,0 +1,114 @@
+I-Logix-RPY-Archive version 8.7.1 C++ 5066837
+{ IProject 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "";
+	}
+	- _id = GUID 0920f0fc-95b3-40ba-860d-6f88c68b90ea;
+	- _myState = 8192;
+	- _name = "Lab3";
+	- codeUpdateCGTime = 11.8.2016::18:34:2;
+	- Dependencies = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IDependency 
+			- _id = GUID 8c9fe7b1-5bbd-415c-979f-df9cdc2fc5ea;
+			- _myState = 2048;
+			- _name = "CodeCentricCpp";
+			- codeUpdateCGTime = 11.8.2016::18:34:2;
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "AppliedProfile";
+					- _id = GUID d2eca2c1-e5a5-4296-9453-29283c4ed8bc;
+				}
+			}
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "IProfile";
+				- _filename = "$OMROOT\\Settings\\CodeCentric\\\\CodeCentric752Cpp.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "CodeCentricCpp";
+				- _id = GUID 5bc6cd73-d83c-4d02-b530-2cc953376a5f;
+			}
+		}
+	}
+	- _UserColors = { IRPYRawContainer 
+		- size = 16;
+		- value = 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 
+	}
+	- _defaultSubsystem = { ISubsystemHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "Default.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "Default";
+		- _id = GUID 4239cb3f-d494-4e13-9d58-d17f28fc0199;
+	}
+	- _component = { IHandle 
+		- _m2Class = "IComponent";
+		- _filename = "DefaultComponent.cmp";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "DefaultComponent";
+		- _id = GUID bb20fa4a-62f0-4f78-89fe-e3a3bb878a31;
+	}
+	- Multiplicities = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ IMultiplicityItem 
+			- _name = "1";
+			- _count = -1;
+		}
+		{ IMultiplicityItem 
+			- _name = "*";
+			- _count = -1;
+		}
+		{ IMultiplicityItem 
+			- _name = "0,1";
+			- _count = -1;
+		}
+		{ IMultiplicityItem 
+			- _name = "1..*";
+			- _count = -1;
+		}
+	}
+	- Subsystems = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ ISubsystem 
+			- fileName = "Default";
+			- _id = GUID 4239cb3f-d494-4e13-9d58-d17f28fc0199;
+		}
+		{ IProfile 
+			- fileName = "SoftwareArchitect752Cpp";
+			- _persistAs = "$OMROOT\\Settings\\SoftwareArchitect";
+			- _id = GUID c4330c76-1cd6-4dbd-bdff-600355b9f34d;
+			- _name = "SoftwareArchitectCpp";
+			- _isReference = 1;
+		}
+		{ IProfile 
+			- fileName = "CodeCentric752Cpp";
+			- _persistAs = "$OMROOT\\Settings\\CodeCentric\\";
+			- _id = GUID 5bc6cd73-d83c-4d02-b530-2cc953376a5f;
+			- _name = "CodeCentricCpp";
+			- _isReference = 1;
+		}
+	}
+	- Diagrams = { IRPYRawContainer 
+		- size = 0;
+	}
+	- Components = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IComponent 
+			- fileName = "DefaultComponent";
+			- _id = GUID bb20fa4a-62f0-4f78-89fe-e3a3bb878a31;
+		}
+	}
+}
+

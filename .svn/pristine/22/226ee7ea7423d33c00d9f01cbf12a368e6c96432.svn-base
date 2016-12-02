@@ -1,0 +1,307 @@
+I-Logix-RPY-Archive version 8.7.1 C++ 5066837
+{ ISubsystem 
+	- _id = GUID 6c705e77-b145-44a6-8b23-a65fd3edb974;
+	- _myState = 8192;
+	- _name = "Default";
+	- _lastID = 10;
+	- weakCGTime = 11.11.2016::21:59:49;
+	- strongCGTime = 11.11.2016::21:36:44;
+	- _defaultComposite = GUID 53549c7e-1d56-4279-aa34-3e7fd85105a7;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 8;
+		- value = 
+		{ IClass 
+			- _id = GUID 53549c7e-1d56-4279-aa34-3e7fd85105a7;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 54577582-0d7e-4f73-93de-f6fd3d7841c4;
+			- _myState = 8192;
+			- _name = "Texting";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Phone Application";
+				- _id = GUID a1850ae7-0988-4cb0-992e-dd4633943198;
+			}
+			- weakCGTime = 11.11.2016::21:31:46;
+			- strongCGTime = 11.11.2016::21:9:36;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID f58dc1f1-d5fb-41ab-ab21-acf718c49543;
+					- _myState = 10240;
+					- _name = "itsUserAuthentication";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID aa7d63af-2c89-49a4-91c9-be935137b503;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 250ccf34-b9eb-43b1-8539-8b84f36c7e23;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID ea325646-9e86-43a2-b1a8-eb6055fde232;
+			- _myState = 8192;
+			- _name = "PushNotification";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Phone Application";
+				- _id = GUID a1850ae7-0988-4cb0-992e-dd4633943198;
+			}
+			- weakCGTime = 11.11.2016::21:31:34;
+			- strongCGTime = 11.11.2016::21:14:53;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID b9c3c252-a16d-42a2-a39c-5d3920c33f57;
+					- _myState = 10240;
+					- _name = "itsUserAuthentication";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID aa7d63af-2c89-49a4-91c9-be935137b503;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1af14ef5-6edd-4b36-9618-8082218ccde5;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID f7ad7646-2861-442b-a3f9-a2bbe02c35ab;
+					- _myState = 10240;
+					- _name = "itsServerCommunication";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 3c4a85e3-2789-47bf-80a6-0a938af69b97;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4afc212e-4d1e-4405-97bc-1cfb0f8a3691;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID aa7d63af-2c89-49a4-91c9-be935137b503;
+			- _myState = 8192;
+			- _name = "UserAuthentication";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Phone Application";
+				- _id = GUID a1850ae7-0988-4cb0-992e-dd4633943198;
+			}
+			- weakCGTime = 11.11.2016::21:31:46;
+			- strongCGTime = 11.11.2016::21:17:9;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 1af14ef5-6edd-4b36-9618-8082218ccde5;
+					- _myState = 10240;
+					- _name = "itsPushNotification";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID ea325646-9e86-43a2-b1a8-eb6055fde232;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b9c3c252-a16d-42a2-a39c-5d3920c33f57;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 250ccf34-b9eb-43b1-8539-8b84f36c7e23;
+					- _myState = 10240;
+					- _name = "itsTexting";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 54577582-0d7e-4f73-93de-f6fd3d7841c4;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID f58dc1f1-d5fb-41ab-ab21-acf718c49543;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 3c4a85e3-2789-47bf-80a6-0a938af69b97;
+			- _myState = 8192;
+			- _name = "ServerCommunication";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Phone Application";
+				- _id = GUID a1850ae7-0988-4cb0-992e-dd4633943198;
+			}
+			- weakCGTime = 11.11.2016::21:31:34;
+			- strongCGTime = 11.11.2016::21:22:35;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 4afc212e-4d1e-4405-97bc-1cfb0f8a3691;
+					- _myState = 10240;
+					- _name = "itsPushNotification";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID ea325646-9e86-43a2-b1a8-eb6055fde232;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID f7ad7646-2861-442b-a3f9-a2bbe02c35ab;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 660fafcb-91af-4226-842b-1131f853998c;
+			- _myState = 8192;
+			- _name = "SendToServer";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Phone Application";
+				- _id = GUID a1850ae7-0988-4cb0-992e-dd4633943198;
+			}
+			- weakCGTime = 11.11.2016::21:34:11;
+			- strongCGTime = 11.11.2016::21:34:11;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 74c3aea9-d6e2-479a-906a-99d770998267;
+			- _myState = 8192;
+			- _name = "RequestListenerThreader";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Phone Application";
+				- _id = GUID a1850ae7-0988-4cb0-992e-dd4633943198;
+			}
+			- weakCGTime = 11.11.2016::21:59:47;
+			- strongCGTime = 11.11.2016::21:59:47;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 8ffcf0fd-c3c0-4adb-8801-deaf57b10aee;
+			- _myState = 8192;
+			- _name = "RequestThread";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Phone Application";
+				- _id = GUID a1850ae7-0988-4cb0-992e-dd4633943198;
+			}
+			- weakCGTime = 11.11.2016::22:2:57;
+			- strongCGTime = 11.11.2016::22:2:47;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 0618a8b2-555f-451f-adda-a608c05eee3a;
+					- _myState = 10240;
+					- _name = "itsRequestListenerThreader";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 74c3aea9-d6e2-479a-906a-99d770998267;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 11.11.2016::21:59:11;
+}
+

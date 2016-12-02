@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <title>User History</title>
+</head>
+<body>
+   <h3>User History</h3>
+   <pre>Reddit            www.reddit.com          visited by (111)111-1111</pre>
+   <pre>Facebook          www.facebook.com        visited by (234)567-8910</pre>
+   <pre>Youtube           www.youtube.com         visited by (101)101-1010</pre>
+   <pre>Google            www.google.com          visited by (111)111-1111</pre>
+   <pre>Imgur             www.imgur.com           visited by (111)111-1111</pre>
+</body>
+</html>
