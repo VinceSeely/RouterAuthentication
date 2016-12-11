@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <title>Router Login</title>
+   <link rel="stylesheet" type="text/css" href="styles.css"> 
+</head>
+<body>
+   <div id="header">Login Page</div>
+   <div id="container">
+   <div id="center" class="column">
+
+   <h3>Enter Phone Number</h3>
+   <form method="get" name = "login">
+      <input type="text" name="phoneNum" autocomplete='off' maxlength="10" />
+      <input type="button" value="Enter" id="SendPhoneNumber" onclick="getPhoneNum()"/>
+   </form>
+      <h3>Terms of Use</h3>
+      <p id="TermsOfUse">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec 
+         lacinia odio nec tincidunt venenatis. Praesent a ex non odio
+         tristique ultricies vel imperdiet leo. Donec imperdiet vel nunc
+         sit amet laoreet. Nunc vel nulla ut nunc imperdiet sagittis non
+         ut sem. In nec felis tortor. Sed dui nibh, ultricies et
+         pulvinar id, ultrices in arcu. Pellentesque habitant morbi
+         tristique senectus et netus et malesuada fames ac turpis
+         egestas. Vivamus et aliquam lorem, sodales tincidunt velit.
+         Praesent a mattis tellus, at viverra nulla. Aliquam erat
+         volutpat. Donec rutrum, risus eu cursus mollis, nunc ipsum
+         pulvinar dolor, ac sollicitudin ipsum ligula placerat nunc.
+         Mauris dolor ipsum, feugiat eu suscipit quis, volutpat in magna.
+         Mauris finibus at justo et condimentum. Fusce quis lectus id
+         sapien commodo aliquam id ac odio. Fusce suscipit libero
+         vulputate imperdiet imperdiet. Vestibulum at fringilla mi, ac
+         blandit leo. 
+      </p>
+   <br/>
+   <h3>Enter Password</h3>
+   <form method="get" name="Pass">
+      &nbsp;<input type="password" name="password" autocomplete='off' />
+      <input type="button" value="Enter" id="SendPassword" onclick="validate()" />
+   </form>
+
+   </div>
+   <div id="left" class="column"></div>
+   <div id="right" class="column"></div>
+
+
+   
+   <script>
+      function getPhoneNum()
+	  {
+	     var validPhoneNum;
+	     if (login.phoneNum.value.length != 10 || isNaN(login.phoneNum.value))
+		 {
+            var num;
+	        while(!num)
+			{
+   			   num = prompt("re-enter your phone number","");
+			   while(num.length != 10 || isNaN(num))
+			      num = prompt("re-enter your phone number","");
+			}
+			validPhoneNum = num;
+	     }
+		 else
+		    validPhoneNum = login.phoneNum.value;
+		 alert("Phone Number: " + validPhoneNum + " You will get text message within 5 mins, if not please type your phone number again");
+		 //code to communicate with the server
+		 login.phoneNum.value = '';
+      }
+	  
+	  
+	  function validate()
+	  {
+	     if(Pass.password.value == "Hello")
+		    location.href='User Features.html';
+	     else
+		    alert("Invalid Password");
+		 Pass.password.value = '';
+	  }
+   </script>
+</body>
+
+<div id="footer-wrapper">
+  <div id="footer"></div>
+</div>
+</html>

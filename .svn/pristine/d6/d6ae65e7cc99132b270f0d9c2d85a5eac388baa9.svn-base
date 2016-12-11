@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>User Features</title>
+</head>
+<body>
+   <h3>User Features</h3>
+   <br/>
+   <input type="button" value="View History" id="ViewUserHistory" onclick="location.href='User History Page.html';"/>
+   <br/>
+   <br/>
+   <input type="button" value="View Status" id="ViewUserStatus" />
+   <br/>
+   <p>Time Remaining DD:HH:MM:SS</p>
+   <label id="timer_div"></label>  <label id="minutes">00</label>:<label id="seconds">00</label>
+   
+   <script>
+	    var minutesLabel = document.getElementById("minutes");
+        var secondsLabel = document.getElementById("seconds");
+		timer_div.innerHTML = 'Time Remaining';
+        var totalSeconds =  10;
+        var interval = setInterval(setTime, 1000);
+
+        function setTime()
+        {
+            secondsLabel.innerHTML = pad(totalSeconds%60);
+            minutesLabel.innerHTML = pad(parseInt(totalSeconds/60));
+		    totalSeconds--;
+			if (totalSeconds < 0)
+            {
+               document.getElementById('timer_div').innerHTML = 'You are done';
+               clearInterval(interval);
+            }
+        }
+
+        function pad(val)
+        {
+            var valString = val + "";
+            if(valString.length < 2)
+            {
+                return "0" + valString;
+            }
+            else
+            {
+                return valString;
+            }
+        }
+   </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <title>User Features</title>
+   <link rel="stylesheet" type="text/css" href="styles.css"> 
+	
+</head>
+<body>
+<center>
+     <div id="header"></div>
+	 </center>
+   <div id="container">
+   <div id="center" class="column">
+<center>   
+   <input type="button" value="View History" id="ViewUserHistory" onclick="location.href='User History Page.html';"/>
+   <br/>
+   <br/>
+   <input type="button" value="View Status" id="ViewUserStatus" />
+   <br/>
+   <br/>
+   <label id="timer_div"></label>  <label id="minutes">00</label>:<label id="seconds">00</label>
+   <center>
+   </div>
+   <div id="left" class="column"></div>
+   <div id="right" class="column"></div>
+
+<div id="footer-wrapper">
+  <div id="footer"></div>
+</div>
+
+
+   <script>
+	    var minutesLabel = document.getElementById("minutes");
+        var secondsLabel = document.getElementById("seconds");
+		timer_div.innerHTML = 'Time Remaining';
+        var totalSeconds =  100;
+        var interval = setInterval(setTime, 1000);
+
+        function setTime()
+        {
+            secondsLabel.innerHTML = pad(totalSeconds%60);
+            minutesLabel.innerHTML = pad(parseInt(totalSeconds/60));
+		    totalSeconds--;
+			if (totalSeconds < 0)
+            {
+               document.getElementById('timer_div').innerHTML = 'You are done';
+               clearInterval(interval);
+            }
+        }
+
+        function pad(val)
+        {
+            var valString = val + "";
+            if(valString.length < 2)
+            {
+                return "0" + valString;
+            }
+            else
+            {
+                return valString;
+            }
+        }
+		
+        document.querySelector(".button1").addEventListener("click", function(){
+        var element = document.createElement("div");
+        element.innerHTML = "<p>Additional Line</p><p>Additional Line</p><p>Additional Line</p>";
+        document.querySelector(".content").appendChild(element);
+        });
+
+        function getNum()
+        {
+           var num = localStorage.getItem('number')
+           document.getElementById("header").innerHTML = 'User Features for ' + num;
+        }
+   </script>
+</body>
+</html>

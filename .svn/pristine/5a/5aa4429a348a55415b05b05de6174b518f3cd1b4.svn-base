@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <title>User History</title>
+   <link rel="stylesheet" type="text/css" href="styles.css"> 
+</head>
+<body>
+   <div id="header">User History for User: (111)111-1111</div>
+   <div id="container">
+   <div id="center" class="column">
+   <pre>Reddit            www.reddit.com</pre>
+   <pre>Google            www.google.com</pre>
+   <pre>Imgur             www.imgur.com</pre>
+   </div>
+   <div id="left" class="column"></div>
+   <div id="right" class="column"></div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "J:\\SE2730Try2\\routerAuthenticationApp\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "J:\\SE2730Try2\\routerAuthenticationApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "J:\\SE2730Try2\\routerAuthenticationApp\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "J:\\SE2730Try2\\routerAuthenticationApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "J:\\SE2730Try2\\routerAuthenticationApp\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "J:\\SE2730Try2\\routerAuthenticationApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim-v21\\design_appbar_state_list_animator.xml"
+    }
+]

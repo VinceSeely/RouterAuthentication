@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Switch
+        android:text="Auto Approve Off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AutoApprove" />
+
+    <TextView
+        android:text="Auto Approve Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AutoApproveTimeTxt" />
+
+    <TextView
+        android:text="Hour        Minute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <NumberPicker
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:translationY="60px"
+        android:id="@+id/HourNumPicker" />
+
+    <NumberPicker
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:translationX="128px"
+        android:translationY="-60px"
+        android:id="@+id/MinuteNumPicker" />
+
+    <Button
+        android:text="Set Default Approve time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setApproveTimeButton" />
+
+    <Button
+        android:text="View white list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/whiteListButton" />
+
+    <Button
+        android:text="View black list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blackListButton" />
+
+    <TextView
+        android:text="Default gateway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="1.125.12.125.1.1"
+        android:ems="10"
+        android:id="@+id/gateWaySetText" />
+
+    <Button
+        android:text="Add Network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addGatewayButton" />
+
+    <Button
+        android:text="View Networks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewNetworks" />
+
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_65afb720b9356212d80a212a73854a48adf923ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccc4b421518bb208c8a66956ebf84c52f155e839">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5c1812bd7408efcf56789804b65aefbed1dcd039\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_cfed600a12aabfdd073e4e98a26615322e2abadd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_a921164803357e285fa09b40d51d0e0a3dbecf26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_489ad906337a4ae57612a003eab88a3314a11614\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_635532df4197c64f389084da6f28d06685f984ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\seelyv\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_532fe67177533ab7ca67bc8d740d718a2f3add35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_701d80c8e2f12dc7dd9f8076d9ae4bc5f96ec65b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa866e50a8e93f0bf1f710867dcb17dccf29ceab">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ef3b6bcb8a78b041ea54ad9732a3c37939b71823\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_8b67231e12b5488b13dee66d886b80552d350552\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_15bb73557ff5d1d7f890f018c71c2b61d7750843\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_1dc3fa07803f92bcdea9208700c484b5fd43719c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_08a1cfbf48cd7fc253aa7d1170c99b7755c7ab41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_11d30eaa64e500a265ec3941b66fc898b192f3d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_d852866fbf909fd199465c27ac7ae93d27978415\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_d73ad48ffe10c63ef7864c9f3464cb06529bdab5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_8fad74c7a03c09ba688db29cb682a5297049bedf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_b108067293b9f3d4abe17bbb87da0731595ac7d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="J:\SE2730Try2\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_47a4b9d5c604a2b6254b4b3580cb1928d79d7b87\classes.dex" />
+    </item>
+
+</items>

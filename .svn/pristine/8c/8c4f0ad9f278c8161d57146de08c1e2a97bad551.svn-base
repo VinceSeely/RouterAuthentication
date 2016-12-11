@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="1946447176557794"
+    token="-3384455175332982300" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="1946355107199834"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="J:\SE2730Try2\routerAuthenticationApp\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="1946447176557794" />
+
+</instant-run>

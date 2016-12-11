@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9cbb10367814cc6568711aeb283e2c2535fcb6f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b037d6e73074bd26d53f7f08e6b28cfcc4b382eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_4bcabacbe10025d5d677ee761ed85d5c5594f6b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e2606f95270e18e98c47529d2b2edbdf08a43be9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e6ee875085c8acf71e4d10adef2ccdeccdcfe259\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_85b2652731fade755b2d57e9c6b306b07b9b95cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="87aab6f7a54cf0524d522b35da3a73eb7f33c625">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e803cc04e96f0c12108fedb56036ca4b32429117\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c0bca417fb1d24f696e8123d6fba8f62c9a3a7e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_6197875d77a1ad960980d56da8f262adadf87ffd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_f8b188e4481aa907d29ae3f8c750493b5f7abcf3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_6e95d59b48b47df5fa9349eb01f39f5131df10f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_2d031bd1a8e46388d01968ac649e86041d990f56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_98d887792f4f82a137717bdda78ef589f2d4951d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_b07b7c2935ac7b3c907e4a528c562cc2b7e1c980\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_d195cfed3643dbceae003efb8782858a263e25a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_1b4e990a3c9abbbd6fc3fe390da7a7ee2c9d0af7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="091ad338e73fb7887976efdbcf259488c21ff199">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_502764bd8ab6befeeb9153f42e540cd6b036821f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_623379f677ba16e19de11b23bbca99c10ee3f470\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\vince\Desktop\IntroToSE\routerAuthenticationApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_d3439c12680e6a50c2f0ab818fe25ccd4e06be45\classes.dex" />
+    </item>
+
+</items>

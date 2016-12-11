@@ -1,0 +1,226 @@
+
+Got a connection: 2016/11/16 00:35:36 IPAddress: /0:0:0:0:0:0:0:1 Port: 65277
+GET /index.html HTTP/1.1
+
+Got a connection: 2016/11/16 00:43:37 IPAddress: /0:0:0:0:0:0:0:1 Port: 65367
+GET /index.html HTTP/1.1
+
+Got a connection: 2016/11/16 00:44:22 IPAddress: /0:0:0:0:0:0:0:1 Port: 65369
+GET /index.html HTTP/1.1
+
+Got a connection: 2016/11/16 00:44:23 IPAddress: /0:0:0:0:0:0:0:1 Port: 65370
+GET /index.html HTTP/1.1
+
+Got a connection: 2016/11/16 00:44:28 IPAddress: /0:0:0:0:0:0:0:1 Port: 65371
+GET /index.html HTTP/1.1
+
+Got a connection: 2016/11/16 07:40:12 IPAddress: /0:0:0:0:0:0:0:1 Port: 50531
+GET /index.html HTTP/1.1
+
+Got a connection: 2016/11/16 07:40:17 IPAddress: /0:0:0:0:0:0:0:1 Port: 50533
+GET /indx.html HTTP/1.1
+404 Not Found
+Content-type: <HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+
+Got a connection: 2016/11/16 07:45:47 IPAddress: /127.0.0.1 Port: 50562
+GET /indx.html HTTP/1.1
+404 Not Found
+Content-type: <HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+
+Got a connection: 2016/11/16 07:45:55 IPAddress: /0:0:0:0:0:0:0:1 Port: 50565
+GET /indx.html HTTP/1.1
+“HTTP/1.0 404 Not Found
+Content-type: <HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+
+Got a connection: 2016/11/16 07:49:47 IPAddress: /127.0.0.1 Port: 50580
+GET /indx.html HTTP/1.1
+“HTTP/1.0 404 Not Found
+Content-type: <HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+
+Got a connection: 2016/11/16 07:49:47 IPAddress: /127.0.0.1 Port: 50579
+GET /indx.html HTTP/1.1
+HTTP/1.0 404 Not Found
+Content-type: <HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+
+Got a connection: 2016/11/16 07:50:49 IPAddress: /0:0:0:0:0:0:0:1 Port: 50607
+GET /indx.html HTTP/1.1
+HTTP/1.0 404 Not Found
+Content-type: <HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+
+Got a connection: 2016/11/16 07:50:53 IPAddress: /0:0:0:0:0:0:0:1 Port: 50608
+GET /indx.html HTTP/1.1
+HTTP/1.0 404 Not Found
+Content-type: text/html
+<HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+
+Got a connection: 2016/11/16 07:52:51 IPAddress: /0:0:0:0:0:0:0:1 Port: 50624
+GET /indx.html HTTP/1.1
+HTTP/1.0 404 Not Found
+Content-type: text/html
+<HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+
+Got a connection: 2016/11/16 07:52:57 IPAddress: /0:0:0:0:0:0:0:1 Port: 50625
+GET /indx.html HTTP/1.1
+[B@456b18a0
+
+Got a connection: 2016/11/16 08:58:03 IPAddress: /127.0.0.1 Port: 50977
+GET /indx.html HTTP/1.1
+[B@1c4e9575
+
+Got a connection: 2016/11/16 08:58:10 IPAddress: /0:0:0:0:0:0:0:1 Port: 50980
+GET /indx.html HTTP/1.1
+72848480474946483252485232781111163270111117110100131067111110116101110116451161211121015832116101120116471041161091081310607284777662607269656862608473847669627811111632701111171101006047847384766962604772696568626066796889627811111632701111171101006047667968896260477284777662
+Got a connection: 2016/11/16 09:02:07 IPAddress: /0:0:0:0:0:0:0:1 Port: 51003
+GET /indx.html HTTP/1.1
+72848480474946483252485232781111163270111117110100131067111110116101110116451161211121015832116101120116471041161091081310607284777662607269656862608473847669627811111632701111171101006047847384766962604772696568626066796889627811111632701111171101006047667968896260477284777662
+Got a connection: 2016/11/16 09:02:09 IPAddress: /0:0:0:0:0:0:0:1 Port: 51004
+GET /indx.html HTTP/1.1
+72 84 84 80 47 49 46 48 32 52 48 52 32 78 111 116 32 70 111 117 110 100 13 10 67 111 110 116 101 110 116 45 116 121 112 101 58 32 116 101 120 116 47 104 116 109 108 13 10 60 72 84 77 76 62 60 72 69 65 68 62 60 84 73 84 76 69 62 78 111 116 32 70 111 117 110 100 60 47 84 73 84 76 69 62 60 47 72 69 65 68 62 60 66 79 68 89 62 78 111 116 32 70 111 117 110 100 60 47 66 79 68 89 62 60 47 72 84 77 76 62 
+Got a connection: 2016/11/16 09:08:29 IPAddress: /0:0:0:0:0:0:0:1 Port: 51038
+GET /indx.html HTTP/1.1
+H T T P / 1 . 0   4 0 4   N o t   F o u n d  
+ C o n t e n t - t y p e :   t e x t / h t m l  
+ < H T M L > < H E A D > < T I T L E > N o t   F o u n d < / T I T L E > < / H E A D > < B O D Y > N o t   F o u n d < / B O D Y > < / H T M L > 
+Got a connection: 2016/11/16 09:09:06 IPAddress: /0:0:0:0:0:0:0:1 Port: 51040
+GET /indx.html HTTP/1.1
+HTTP/1.0 404 Not Found
+Content-type: text/html
+<HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+Got a connection: 2016/11/16 09:09:59 IPAddress: /0:0:0:0:0:0:0:1 Port: 51051
+GET /indx.html HTTP/1.1
+HTTP/1.0 404 Not Found
+Content-type: text/html
+<HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+Got a connection: 2016/11/16 14:33:32 IPAddress: /0:0:0:0:0:0:0:1 Port: 16517
+GET /notaFile.HTML HTTP/1.1
+HTTP/1.0 404 Not Found
+Content-type: text/html
+<HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+Got a connection: 2016/11/16 14:36:19 IPAddress: /0:0:0:0:0:0:0:1 Port: 16532
+GET /index.HTML HTTP/1.1
+HTTP/1.0 404 Not Found
+Content-type: text/html
+<HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+Got a connection: 2016/11/16 14:36:40 IPAddress: /0:0:0:0:0:0:0:1 Port: 16534
+GET /index.html HTTP/1.1
+HTTP/1.0 404 Not Found
+Content-type: text/html
+<HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+Got a connection: 2016/11/16 14:37:23 IPAddress: /0:0:0:0:0:0:0:1 Port: 16536
+GET /index.html HTTP/1.1
+/index.htmlHTTP/1.0 404 Not Found
+Content-type: text/html
+<HTML><HEAD><TITLE>Not Found</TITLE></HEAD><BODY>Not Found</BODY></HTML>
+Got a connection: 2016/11/16 14:40:38 IPAddress: /0:0:0:0:0:0:0:1 Port: 16559
+GET /index.html HTTP/1.1
+index.xml
+Got a connection: 2016/11/16 15:09:55 IPAddress: /0:0:0:0:0:0:0:1 Port: 16692
+GET /index.xml HTTP/1.1
+index.xml
+Got a connection: 2016/11/16 15:10:54 IPAddress: /0:0:0:0:0:0:0:1 Port: 16693
+GET /index.xml HTTP/1.1
+index.xml
+Got a connection: 2016/11/16 15:12:12 IPAddress: /0:0:0:0:0:0:0:1 Port: 16697
+GET /index.xml HTTP/1.1
+index.xml
+Got a connection: 2016/11/16 15:14:36 IPAddress: /0:0:0:0:0:0:0:1 Port: 16711
+GET /index.xml HTTP/1.1
+index.xml
+Got a connection: 2016/11/16 15:23:06 IPAddress: /0:0:0:0:0:0:0:1 Port: 16737
+GET /index.xml HTTP/1.1
+index.xml
+Got a connection: 2016/11/16 15:24:48 IPAddress: /0:0:0:0:0:0:0:1 Port: 16752
+GET /index.xml HTTP/1.1
+favicon.ico
+Got a connection: 2016/11/16 15:25:51 IPAddress: /0:0:0:0:0:0:0:1 Port: 16759
+GET /favicon.ico HTTP/1.1
+index.xml
+Got a connection: 2016/11/16 15:25:52 IPAddress: /0:0:0:0:0:0:0:1 Port: 16758
+GET /index.xml HTTP/1.1
+index.htmlindex.dddd
+Got a connection: 2016/11/16 15:26:15 IPAddress: /0:0:0:0:0:0:0:1 Port: 16761
+GET /index.dddd HTTP/1.1
+fuck.html
+Got a connection: 2016/11/16 19:13:44 IPAddress: /0:0:0:0:0:0:0:1 Port: 50105
+GET /fuck.html HTTP/1.1
+favicon.ico
+Got a connection: 2016/11/16 19:13:44 IPAddress: /0:0:0:0:0:0:0:1 Port: 50106
+GET /favicon.ico HTTP/1.1
+index.htmlindex.xxx
+Got a connection: 2016/11/16 19:15:28 IPAddress: /0:0:0:0:0:0:0:1 Port: 50118
+GET /index.xxx HTTP/1.1
+index.xxx
+Got a connection: 2016/11/16 19:15:28 IPAddress: /0:0:0:0:0:0:0:1 Port: 50119
+GET /index.xxx HTTP/1.1
+index.xxx
+Got a connection: 2016/11/16 19:15:33 IPAddress: /0:0:0:0:0:0:0:1 Port: 50120
+GET /index.xxx HTTP/1.1
+index.xxx
+Got a connection: 2016/11/16 19:15:39 IPAddress: /0:0:0:0:0:0:0:1 Port: 50122
+GET /index.xxx HTTP/1.1
+index.xxx
+Got a connection: 2016/11/16 19:15:51 IPAddress: /0:0:0:0:0:0:0:1 Port: 50123
+GET /index.xxx HTTP/1.1
+index.xxx
+Got a connection: 2016/11/16 19:15:52 IPAddress: /0:0:0:0:0:0:0:1 Port: 50124
+GET /index.xxx HTTP/1.1
+index.xxx
+Got a connection: 2016/11/16 19:15:52 IPAddress: /0:0:0:0:0:0:0:1 Port: 50125
+GET /index.xxx HTTP/1.1
+index.xxx
+Got a connection: 2016/11/16 19:15:52 IPAddress: /0:0:0:0:0:0:0:1 Port: 50126
+GET /index.xxx HTTP/1.1
+index.xxx
+Got a connection: 2016/11/16 19:15:52 IPAddress: /0:0:0:0:0:0:0:1 Port: 50127
+GET /index.xxx HTTP/1.1
+idfsd.dfd
+Got a connection: 2016/11/16 19:15:59 IPAddress: /0:0:0:0:0:0:0:1 Port: 50129
+GET /idfsd.dfd HTTP/1.1
+idfsd.dfd
+Got a connection: 2016/11/16 19:16:29 IPAddress: /0:0:0:0:0:0:0:1 Port: 50132
+GET /idfsd.dfd HTTP/1.1
+./idfsd.dfd
+Got a connection: 2016/11/16 19:16:41 IPAddress: /0:0:0:0:0:0:0:1 Port: 50133
+GET /idfsd.dfd HTTP/1.1
+./fuck.xml
+Got a connection: 2016/11/16 19:16:56 IPAddress: /0:0:0:0:0:0:0:1 Port: 50134
+GET /fuck.xml HTTP/1.1
+./fuck.xml
+Got a connection: 2016/11/16 19:17:44 IPAddress: /0:0:0:0:0:0:0:1 Port: 50148
+GET /fuck.xml HTTP/1.1
+./fuck.xml
+Got a connection: 2016/11/16 19:17:44 IPAddress: /0:0:0:0:0:0:0:1 Port: 50149
+GET /fuck.xml HTTP/1.1
+./fuck.xml
+Got a connection: 2016/11/16 19:17:49 IPAddress: /0:0:0:0:0:0:0:1 Port: 50150
+GET /fuck.xml HTTP/1.1
+./fuck.xml
+Got a connection: 2016/11/16 19:18:19 IPAddress: /0:0:0:0:0:0:0:1 Port: 50153
+GET /fuck.xml HTTP/1.1
+./fuck.xml
+Got a connection: 2016/11/16 19:18:45 IPAddress: /0:0:0:0:0:0:0:1 Port: 50154
+GET /fuck.xml HTTP/1.1
+./favicon.ico
+Got a connection: 2016/11/16 19:18:45 IPAddress: /0:0:0:0:0:0:0:1 Port: 50155
+GET /favicon.ico HTTP/1.1
+./index.html./index.sssd
+Got a connection: 2016/11/16 19:38:59 IPAddress: /0:0:0:0:0:0:0:1 Port: 50339
+GET /index.sssd HTTP/1.1
+./index.html./index.html./index.html
+Got a connection: 2016/11/16 19:58:52 IPAddress: /0:0:0:0:0:0:0:1 Port: 50551
+GET /index.html HTTP/1.1
+./example/prettypicture.jpg
+Got a connection: 2016/11/16 19:58:52 IPAddress: /0:0:0:0:0:0:0:1 Port: 50552
+GET /example/prettypicture.jpg HTTP/1.1
+./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg./prettypicture.jpg
+Got a connection: 2016/11/16 20:27:22 IPAddress: /0:0:0:0:0:0:0:1 Port: 50785
+GET /prettypicture.jpg HTTP/1.1
+./UserBrowser.HTML./UserBrowser.HTML./UserBrowser.HTML./UserBrowser.HTML
+Got a connection: 2016/12/09 16:08:44 IPAddress: /0:0:0:0:0:0:0:1 Port: 1503
+GET /UserBrowser.HTML HTTP/1.1
+./UserBrowser.HTML./UserBrowser.HTML./UserBrowser.HTML./UserBrowser.HTML
+Got a connection: 2016/12/09 16:08:53 IPAddress: /0:0:0:0:0:0:0:1 Port: 1508
+GET /UserBrowser.HTML HTTP/1.1
+./styles.css./styles.css./styles.css
+Got a connection: 2016/12/09 16:08:53 IPAddress: /0:0:0:0:0:0:0:1 Port: 1509
+GET /styles.css HTTP/1.1
